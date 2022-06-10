@@ -26,7 +26,8 @@ function addNum(){
 function finalizar(){
     let soma = 0;
     let res = document.getElementById('interface2')
-    let tamanhoLista = lista.lenght
+    let menor = Math.min(...lista)
+    let maior = Math.max(...lista)
 
     for (let item of lista){
         soma += item
@@ -34,6 +35,9 @@ function finalizar(){
 
     const media = soma/lista.length
     res.innerHTML =
-     `<p>Ao todo temos ${lista.lenght} elementos</p>
+     `<p>Ao todo temos ${lista.length} elementos</p>
+     <p>A soma de todos os valores é ${soma}</p>
+     <p>O maior valor é de ${maior}</p>
+     <p>O menor valor é de ${menor}</p>
      <p>A media dos elementos adicionados é ${media}</p>`
 }
