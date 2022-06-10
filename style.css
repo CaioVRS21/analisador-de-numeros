@@ -1,0 +1,61 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(31, 115, 241);
+
+    text-align: center;
+}
+
+body h1{
+    color: white;
+}
+
+body a{
+    text-decoration: none;
+
+    color: black;
+}
+
+body a:hover{
+    text-decoration: underline;
+
+    color: white;
+}
+
+section{
+    margin: auto;
+    padding: 0.063rem;
+    width: 31.25rem;
+
+    text-align: left;
+
+    background-color: white;
+    color: black;
+
+    box-shadow: 0.063rem 0.063rem 0.25rem black;
+    border-radius: 0.625rem;
+}
+
+section div{
+    margin-left: 0.313rem;
+}
+
+section p{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+#interface1 select{
+    width: 10.6rem;
+}
+
+footer{
+    margin-top: 1.5rem;
+
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+
